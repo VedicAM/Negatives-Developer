@@ -4,7 +4,7 @@ from Core import Developer
 
 path = input("Path to negative: ")
 colorizeImg = input("Colorize image (if it's black and white) (y/n)? ")
-colorizeImg = True if colorizeImg.lower == 'y' else False
+colorizeImg = True if colorizeImg.lower() == "y" else False
 
 developer = Developer(path, colorize=colorizeImg)
 developer.write()
