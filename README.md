@@ -1,5 +1,5 @@
-# Negatives-Developer 
-This program can develop undeveloped film from old cameras digitally and can also colorize the undeveloped black and white photos using Machine Learning.
+# Negatives-Developer
+This innovative program digitally processes undeveloped film from vintage cameras and colorizes black-and-white photos using advanced machine learning techniques. The end goal is to evolve this into a user-friendly website where you can easily upload, develop, and colorize your negatives online for free!
 
 # Running
 This program uses Python so please make sure you have the latest version of Python installed on your computer. This program uses one dependency which is OpenCV. To install OpenCV please run this command: ``python3 -m pip install opencv-python``. Also to install the main model's file please [click here](https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/) and download **colorization_release_v2.caffemodel** then put that file into the models folder. Once installed, please run this command to run the example program: ``python3 main.py``.
