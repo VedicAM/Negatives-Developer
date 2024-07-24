@@ -2,7 +2,7 @@
 This program can develop undeveloped film from old cameras digitally and can also colorize the undeveloped black and white photos using Machine Learning.
 
 # Running
-This program uses Python so please make sure you have the latest version of Python installed on your computer. This program uses one dependency which is OpenCV. To install OpenCV please run this command: ``python3 -m pip install opencv-python``. Once installed, please run this command to run the example program: ``python3 main.py``.
+This program uses Python so please make sure you have the latest version of Python installed on your computer. This program uses one dependency which is OpenCV. To install OpenCV please run this command: ``python3 -m pip install opencv-python``. Also to install the main model's file please [click here](https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/) and download colorization_release_v2.caffemodel then put that file into the models folder. Once installed, please run this command to run the example program: ``python3 main.py``.
 
 # Results
 Below are some examples of photos before and after processing through the program.
